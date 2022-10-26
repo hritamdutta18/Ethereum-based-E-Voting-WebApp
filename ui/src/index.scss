@@ -1,0 +1,35 @@
+$font-family-sans-serif: "Inter", sans-serif;
+$enable-shadows: true;
+$enable-gradients: true;
+$enable-caret: false;
+
+html,
+body,
+#root {
+  height: 100vh;  
+  background-image: url("./bg_voting.png");
+  background-size: cover;
+}
+
+* {
+  -webkit-user-select: none;
+  user-select: none;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+th{
+  font-size: 1.3em;
+}
+
+td{
+  font-size: 1.1em;
+}
+
+#app-title {
+  font-weight: bold;
+}
+
+@import "bootstrap";
